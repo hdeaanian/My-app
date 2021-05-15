@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>HeaIn Kang</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+<!--즐겨찾기 파비콘(FAVorites ICON): .png .ico-->
+<link rel="shortcut icon" href="./img/hi.ico">
+<!--터치 아이콘 : 모바일 디바이스로 사이트 접속 후 홈화면에 추가시 생기는 아이콘-->
+<link rel="apple-touch-icon-precomposed" href="./img/hi.ico">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+<!-- fotorama CDN 설정 추가 -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("#nav").hide();
+	$("#nav li").click(function(){
+		$("#nav li").removeClass("on");
+		$(this).addClass("on");
+	});
+	$("#nav li").hover(function(){
+		$("#nav li").removeClass("on");
+		$(this).addClass("on");
+	});
+
+});
+</script>
+<style type="text/css">
+.ui-btn-icon-right:after{background: url(./img/search.svg) center 100%;}
+</style>
+</head>
+
+<body>
+	 <!--메인 페이지-->
+	<div data-role="page" id="home">
+		<section data-role="content" id="hiver">
+			<h1 id="logo">HI.VER</h1>
+			<div data-role="content" id="search">
+				<a href="#project" data-role="button" data-icon="search" data-iconpos="right" data-transition="flow" data-theme="a">HeaIn Kang</a>
+			</div>
+		</section>
+		<footer data-role="footer" data-position="fixed">
+		    <nav data-role="navbar" id="nav">
+                <ul>
+                    <li><a href="#home" data-transition="flow">Home</a></li>
+                    <li class="on"><a href="#project" data-transition="fade">Project</a></li>
+                    <li><a href="#skill" data-transition="fade">Skill</a></li>
+                    <li><a href="#about" data-transition="fade">About</a></li>
+                </ul>
+            </nav>
+        </footer>
+	</div>
+
+	<!--project 페이지-->
+	<div data-role="page" id="project">
+		<header data-role="header" id="header">
+			<h1 id="hi"><a href="#home"></a></h1>
+		</header>
+		<section data-role="content">
+			<h2 class="project">PROJECT</h2>
+			<div class="con_wrap">
+			    <div id="box" class="con_box"><a href="con01" data-role="button" data-theme="a">SAMPLE</a></div>
+			    <div id="box" class="con_box"><a href="con02" data-role="button" data-theme="a">SAMPLE</a></div>
+			    <div id="box" class="con_box"><a href="con03" data-role="button">SAMPLE</a></div>
+			    <div id="box" class="con_box"><a href="con04" data-role="button">SAMPLE</a></div>					
+			</div>
+		</section>
+		<footer data-role="footer" data-position="fixed">
+		    <nav data-role="navbar" id="nav">
+                <ul>
+                    <li><a href="#home" data-transition="flow">Home</a></li>
+                    <li class="on"><a href="#project" data-transition="fade">Project</a></li>
+                    <li><a href="#skill" data-transition="fade">Skill</a></li>
+                    <li><a href="#about" data-transition="fade">About</a></li>
+                </ul>
+            </nav>
+        </footer>
+	</div>
+
+	<!--skill 페이지-->
+	<div data-role="page" id="skill">
+		<header data-role="header" id="header">
+			<h1 id="hi"><a href="#home"></a></h1>
+		</header>
+		<section data-role="content">
+			<h3>SKILL</h3>
+			<div id="wrap">
+			    <ul class="skill">
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>PS</li>
+				    <li id="ps" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>AI</li>				    <li id="ai" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>XD</li>
+				    <li id="xd" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>FIGMA</li>
+				    <li id="fig" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>PROCREAT</li>
+				    <li id="pro" class="box"><span></span></li>
+		       </ul>
+		    </div>
+		    <h3 class="language">LANGUAGE</h3>
+		    <div id="wrap">
+		        <ul class="lang">
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>HTML5</li>
+				    <li id="html" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>CSS</li>
+				    <li id="css" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>JS</li>
+				    <li id="js" class="box"><span></span></li>
+				    <img src="./img/seed.svg" class="seed"><img src="./img/tree.svg" class="tree"><li>JQ</li>
+				    <li id="jq" class="box"><span></span></li>
+		        </ul>
+		    </div>
+		</section>
+		<footer data-role="footer" data-position="fixed">
+		    <nav data-role="navbar" id="nav">
+                <ul>
+                    <li><a href="#home" data-transition="flow">Home</a></li>
+                    <li><a href="#project" data-transition="fade">Project</a></li>
+                    <li class="on"><a href="#skill" data-transition="fade">Skill</a></li>
+                    <li><a href="#about" data-transition="fade">About</a></li>
+                </ul>
+            </nav>
+        </footer>
+	</div>
+	
+    <!--about 페이지-->
+	<div data-role="page" id="about">
+		<header data-role="header" id="header">
+			<h1 id="hi"><a href="#home"></a></h1>
+		</header>
+		<section data-role="content">
+			<div id="picture_box"></div>
+			<div id="profile">
+				<h2 class="name"><span>H</span>EA<span>I</span>N <span>KANG</span></h2><small>UI/UX designer</small>
+			</div>
+			<div id="profile_box">
+				
+			</div>
+			<h2>MAKER</h2>
+			<div class="gallery">
+			    <div id="box01" class="img_box"><a href="con01" data-role="button" data-theme="a">MADE</a></div>
+			    <div id="box02" class="img_box"><a href="con02" data-role="button" data-theme="a">MADE</a></div>
+			    <div id="box03" class="img_box"><a href="con03" data-role="button">MADE</a></div>
+			    <div id="box04" class="img_box"><a href="con04" data-role="button">MADE</a></div>					
+			</div>
+		</section>
+		<footer data-role="footer" data-position="fixed">
+		    <nav data-role="navbar" id="nav">
+                <ul>
+                    <li><a href="#home" data-transition="flow">Home</a></li>
+                    <li><a href="#project" data-transition="fade">Project</a></li>
+                    <li><a href="#skill" data-transition="fade">Skill</a></li>
+                    <li class="on"><a href="#about" data-transition="fade">About</a></li>
+                </ul>
+            </nav>
+        </footer>
+	</div>
+</body>
+</html>

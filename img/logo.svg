@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Layer_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+	 style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#37B672;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:20px;}
+</style>
+<g transform="translate(0,-952.36218)">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14" y1="51.2338" x2="84.9986" y2="51.2338" gradientTransform="matrix(1 0 0 -1 0 1053.1338)">
+		<stop  offset="0" style="stop-color:#00EE58"/>
+		<stop  offset="1" style="stop-color:#03CADD"/>
+	</linearGradient>
+	<path class="st0" d="M43,966.4c-16,0-29,13-29,29s13,29,29,29c6.9,0,13.3-2.4,18.2-6.5l18.6,18.6c1.2,1.2,3.1,1.2,4.2,0
+		c1.2-1.2,1.2-3,0-4.2l-18.6-18.6c4.1-5,6.5-11.4,6.5-18.3C72,979.4,59,966.4,43,966.4L43,966.4z M43,972.4c12.7,0,23,10.3,23,23
+		s-10.3,23-23,23s-23-10.3-23-23C20,982.6,30.3,972.4,43,972.4z"/>
+</g>
+<text transform="matrix(1 0 0 1 32.6653 50.0002)" class="st1 st2 st3">HI</text>
+</svg>

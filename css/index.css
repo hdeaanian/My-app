@@ -1,0 +1,108 @@
+@charset "utf-8";
+body,header,section,footer,div,h1,h2,h3,ul,li{margin: 0; padding: 0;}
+body,html{width: 100%;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #000;}
+
+ /* home */
+#home{margin:0 auto; background: #fff;}
+#logo{margin:0; padding:0; text-align: center; color:#37b672; font-weight: 900; font-size: 50px;}
+#hiver{padding-top: 35%;}
+#search a{text-indent: -75%;  color:#e1e1e1; background: #fff; border: 1px solid #37b672; font-weight: 400; cursor: pointer;}
+#search a:hover {background-position: right center; color: #666; font-weight: 700;}
+#header{background: #f9f9f9; margin: 10px 0 0 0; border-style: none;}
+section{padding-top: 0;}
+
+/* nav */
+#nav li a{font-size: 14px; }
+#nav li.on{background: #37b672;}
+#nav li.on a{background: #37b672; color: #fff; text-shadow: 0 1px 0 #f3f3f3;}
+#nav li:hover a{background: #37b672; color: #fff; }
+ 
+
+/* skill */
+#hi{background: url(../img/logo.svg) no-repeat; margin: 0; margin-left: 10px;}
+#skill{width:100%;  margin: 0 auto;}
+#skill #wrap{width: 100%; margin: 0 auto; background: #fff; border-radius: 25px; padding: 10px 0; text-align: center; font-weight: 700;}
+h2{color:#37b672; font-weight: 800; text-align: center;}
+h3{color:#37b672; font-size: 22px; margin-top: 10px; text-align: center; margin-bottom: 15px;}
+.language{margin-top: 50px;}
+#wrap ul{width:90%; margin: 0 auto; margin-top: 10px; text-shadow: none;}
+#wrap li{font-size: 12px; position: relative;}
+.box{width:100%; height:5px; background: #f9f9f9; border-radius: 20px; margin: 5px 0; }
+#wrap .seed{width: 24px; height: 24px; position: absolute; left:38px;}
+#wrap .tree{width: 24px; height: 24px; position: absolute; right:38px;}
+
+/* skill growup */
+.skill li span{height:5px; background:#6de9f2; display: block; border-radius: 20px;}
+
+.skill li#ps span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+.skill li#ai span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+.skill li#xd span{width:70%; height:5px; animation-name: grow70; animation-duration: 1.5s; }
+.skill li#fig span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+.skill li#pro span{width:80%; height:5px; animation-name: grow80; animation-duration: 1.5s;}
+
+/* lang growup */
+.lang li span {height:5px; background:#6de9f2; display: block; border-radius: 20px;}
+
+.lang li#html span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+.lang li#css span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+.lang li#js span{width:75%; height:5px; animation-name: grow75; animation-duration: 1.5s; }
+.lang li#jq span{width:90%; height:5px; animation-name: grow90; animation-duration: 1.5s;}
+
+/* animate */ 
+@keyframes grow90 {
+0% {width:0%;}
+100% {width:90%;}	
+}
+@keyframes grow80 {
+0% {width:0%;}
+100% {width:80%;}
+}
+@keyframes grow75 {
+0% {width:0%;}
+100% {width:75%;}
+}
+@keyframes grow70 {
+0% {width:0%;}
+100% {width:70%;}
+}*/
+
+/* project */
+.con_wrap{max-width: 360px; width: 360px; margin: 0 auto; }
+.con_box{width: 44%; margin:3%; float: left; }
+.con_box a{height:200px; line-height: 200px; }
+.con_box a{background: url(../img/sample.png) no-repeat; background-size: cover;}
+.con_box a:hover{border:1px solid #37b672; }
+
+@media only screen and (max-width:376px) {
+	#skill{width: 100% !important;}
+	#skill #wrap{width:80% !important; padding:10px 5% !important;; }
+	#skill #wrap ul{width:90% !important;}
+	#project .project{color:#37b672; font-weight: 800; text-align: center; margin-bottom: 5px;}
+    .con_wrap{width: 90%; margin: 0 auto;}
+    .con_box{width: 100%; margin:25px 0px; margin: 0 auto; }
+    .con_box a{height:150px; line-height: 150px; }
+}
+
+/* about */
+#about #profile{text-align: center; margin-top: 10px;}
+#about #picture_box{width:100px; height: 100px; border-radius: 50%;  margin: 0 auto; background: url(../img/hi-1.png) no-repeat; background-size: cover; }
+#about #profile_box{width: 90%;  margin: 0 auto; height: 300px; background: #fff; margin-top: 20px; border-radius: 25px; margin-bottom: 10px;}
+.name{color:#37b672;font-weight: 800; text-align: center; text-shadow: 1px solid #000;}
+.name span{color:#37b672;}
+#profile small{color: #666;}
+#about .con_wrap{width: 360px; margin: 0 auto; }
+#about .con_box{width: 48%; margin:1%; float: left;}
+#about .con_box a{height:50px; line-height: 50px; }
+#about #box a{color: #666; font-size: 20px;}
+#about #box a:hover{border:1px solid #37b672; color: #37b672;}
+
+.gallery{width: 96%; margin:0 2%;; }
+.img_box{width: 44%; margin:0 3%; float: left; }
+.img_box a{height:150px; line-height: 150px; }
+.gallery #box a:hover{border:1px solid #37b672; }
+.gallery #box01 a{background: url(../img/made1.png) no-repeat; background-size: cover;}
+.gallery #box02 a{background: url(../img/art.png) no-repeat; background-size: cover;}
+.gallery #box03 a{background: url(../img/bab.png) no-repeat; background-size: cover;}
+.gallery #box04 a{background: url(../img/leather.png) no-repeat; background-size: cover;}
